@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header>
+            <nav>
+                <img class="logo" src="3c6ff967-7353-4ecf-8d3f-0b4027fd6afa.png" alt="Logo">
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis iusto, assumenda iste et esse nesciunt natus, rerum, ipsum aspernatur mollitia voluptas dignissimos dolorum architecto. Nobis, ut maxime! Ut quae harum repellat cum et. Ducimus dolor inventore cupiditate voluptas, assumenda eum, repudiandae earum neque nisi nihil quidem. Ducimus nobis a voluptate ipsam commodi maxime exercitationem, mollitia perspiciatis porro et doloribus quibusdam placeat, nam, voluptatum fugit! Nihil nostrum ex, commodi iusto obcaecati quo architecto ab perferendis praesentium quibusdam. At voluptas, facilis pariatur, nemo reprehenderit, rerum quaerat quae eos illo eveniet quo mollitia itaque deleniti? Officiis, in provident? Aperiam, deleniti? Tempora, dicta fugit perspiciatis magni nesciunt tempore ea voluptates asperiores aperiam non eveniet dolorum officia! Iure, temporibus earum quaerat incidunt cupiditate error totam eos laudantium dicta ducimus debitis non soluta quia labore, harum et facere eveniet voluptatibus beatae? Aperiam alias excepturi eius ab cum. Repudiandae consequuntur iure voluptates porro harum magnam, odit tempore maxime aspernatur minima eaque sequi excepturi eum, deleniti ipsum! Eius dolor minima voluptas ipsum esse unde, quia quidem illo similique quaerat odio illum praesentium earum ad corporis vel ipsa impedit. Nulla placeat minus, eveniet mollitia dignissimos quod recusandae. Culpa quidem harum dolores cum modi ea. Veniam tenetur animi at id!
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur saepe accusantium in similique laboriosam tenetur expedita nulla sed. Nostrum, obcaecati? Eligendi aliquid expedita laudantium fugit labore architecto officia sapiente quam tempora consequatur distinctio quidem consectetur accusantium culpa obcaecati itaque, delectus eveniet quae. Officiis temporibus, perspiciatis consequatur aliquam aperiam cupiditate mollitia explicabo id dolorum corrupti exercitationem illo. Quidem eius esse error ipsam beatae tempora aut temporibus consequatur natus quia autem provident enim, aperiam doloremque officiis dolorum? Tenetur dolorum laborum distinctio et nam a voluptate voluptatem rerum, quaerat consectetur deserunt asperiores accusantium harum aliquam dignissimos labore facere quis cum quo! Temporibus atque tempora magnam vitae nobis. Quidem, ipsam est delectus consequatur saepe impedit labore vel itaque quod odit ipsa quisquam veritatis sint facilis, animi, maxime aliquam maiores ut ab inventore voluptas sunt? Debitis, repudiandae doloremque odio deserunt possimus consequatur omnis amet accusantium dignissimos? Vero officia voluptatum recusandae quam rerum, ab deserunt repellendus repudiandae tempora animi tenetur consequuntur qui consequatur quibusdam ipsa eum sequi officiis dolorum praesentium itaque sunt dolore impedit eligendi? Magni officia nesciunt dolor facilis rem quos magnam illum labore ullam fuga, optio, odio quo aliquid autem ea voluptatum, sed maxime explicabo iste debitis quasi aperiam illo repellendus velit. Eius, praesentium iusto officia voluptate ab rem earum dicta accusantium consectetur dignissimos sint vel, eligendi nemo commodi, voluptatum nesciunt optio eveniet quisquam odio pariatur ullam nihil neque iure amet. Quisquam quia non iste laborum sed qui quo, dolores libero voluptatibus minus molestias facere ullam magnam obcaecati veniam perspiciatis nobis nesciunt, eveniet earum, a sit. Neque accusantium id quasi quo sunt architecto assumenda incidunt odit atque aliquam, ducimus totam natus nemo officia maxime ut dicta, perspiciatis quia delectus tempore consectetur nostrum. Ea, recusandae nostrum. Magni, illum. Cumque unde saepe voluptatum ipsum atque a minima quas id blanditiis molestias tenetur, modi, illo, excepturi soluta!
+            </p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //menu toggle button
+        $(document).ready(function() {
+                $(".menu-icon").on("click", function() {
+                    $("nav ul").toggleClass("showing")
+                })
+            })
+            //scrolling effect
+        $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                $("nav").addClass("black")
+            }else{
+                $("nav").removeClass("black")
+            }
+        })
+    </script>
+    <!-- <h1 class="titulo">Juan Jose Aguirre Zapata</h1> -->
+    <div class="container">
+            <div class="card1" id="card">
+                <div class="img">
+                    <img src="1170750_WgU3FVB5.png" alt="imagen">
+                </div>
+                <div class="text">
+                    <p>
+                        Mi Nombre es Juan Jose Aguirre Zapata, tengo 20 años, actualmente resido en la Tebaida,Quindio, estoy cursando
+                        el sexto semestre de la carrera de Tecnologia en Desarrollo de Software en la Universidad del Valle, me considero
+                        una persona proactiva, bastante bueno con el trabajo en equipo, tengo un manejo Medio-Avanzado de Java y Python
+                        ademas de un manejo medio de HTML y CSS.
+                    </p>
+                </div>
+            </div>
+            <div class="card2" id="card">
+                <div class="img">
+                    <img class="python" src="Python_icon-icons.com_68975.png" alt="imagen">
+                </div>
+                <div class="text">
+                    <h2><a href="https://www.python.org/doc/">Python</a></h2>
+                    <p>
+                        es un lenguaje de programación de alto nivel, interpretado y orientado a objetos. 
+                        Fue creado en la década de 1990 como un proyecto de código abierto. 
+                        La sintaxis de Python es clara y legible, lo que lo convierte en un lenguaje muy fácil de aprender y utilizar.
+                    </p>
+                </div>
+                <div class="img">
+                    <img class="java" src="coffeecuplogoJava_5406.png" alt="imagen">
+                </div>
+                <div class="text">
+                    <h2><a href="https://docs.oracle.com/en/java/">Java</a></h2>
+                    <p>
+                        Java es un lenguaje de programación de propósito general, orientado a objetos y diseñado para ser independiente 
+                        de la plataforma. Fue desarrollado en la década de 1990 y se ha convertido en uno de los 
+                        lenguajes más populares en el desarrollo de aplicaciones empresariales.
+                    </p>
+                </div>
+            </div>
+            <div class="card3" id="card">
+                <div class="img">
+                    <img src="projecto.png" alt="imagen">
+                </div>
+                <div class="text">
+                    <h2>Proyecto</h2>
+                    <p>El proyecto trata de un sistema de créditos para un almacen de electrodomésticos, 
+                        el cual está distribuido en tres partes.</p>
+                        <br>
+                        <ol>
+                            <li>Formulario para crear Clientes en la Base de datos del almacén</li>
+                            <br>
+                            <li>Asignar o rechazar el crédito</li>
+                            <br>
+                            <li>Pago del crédito(Revisar moras, realizar abonos a capital, formas de pago, etc.)</li>
+                        </ol>
+                    </p>
+                </div>
+            </div>
+        
+    </div>
+    <footer>
+        <div class="frapper">
+            <div class="media-fotter">
+                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                <li><i class="fa fa-linkedin-square" aria-hidden="true"></i></li>
+                <li><i class="fa fa-whatsapp" aria-hidden="true"></i></li>
+                <p>Copyright &copy; 2021</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
